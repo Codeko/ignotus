@@ -1,0 +1,52 @@
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Desarrollo\Ignotvs\Ignotus\Instalador\Ignotusv1.1.2.zip</jar>
+  <outfile>C:\Desarrollo\Ignotvs\Ignotus\Instalador\Ignotus.exe</outfile>
+  <errTitle>Oppss! Parece que no tienes Java instalado.</errTitle>
+  <cmdLine></cmdLine>
+  <chdir></chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl>http://www.codeko.com/</supportUrl>
+  <customProcName>true</customProcName>
+  <stayAlive>false</stayAlive>
+  <manifest></manifest>
+  <icon>C:\Desarrollo\Ignotvs\Ignotus\icon.ico</icon>
+  <singleInstance>
+    <mutexName>ignotus</mutexName>
+    <windowTitle>Ignotvs. Magia para tu biblioteca!</windowTitle>
+  </singleInstance>
+  <classPath>
+    <mainClass>com.codeko.apps.campanilla.ignotus.IgnotusApp</mainClass>
+    <cp>lib/*</cp>
+  </classPath>
+  <jre>
+    <path></path>
+    <minVersion>1.6.0</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <initialHeapSize>128</initialHeapSize>
+    <maxHeapSize>1024</maxHeapSize>
+    <maxHeapPercent>50</maxHeapPercent>
+  </jre>
+  <versionInfo>
+    <fileVersion>1.1.2.0</fileVersion>
+    <txtFileVersion>v1.1.2</txtFileVersion>
+    <fileDescription>Ejecutable de Ignotus</fileDescription>
+    <copyright>Codeko Informática</copyright>
+    <productVersion>1.1.2.0</productVersion>
+    <txtProductVersion>v1.1.2</txtProductVersion>
+    <productName>Ignotus</productName>
+    <companyName>Codeko Informatica</companyName>
+    <internalName>Ignotus</internalName>
+    <originalFilename>Ignotus.exe</originalFilename>
+  </versionInfo>
+  <messages>
+    <startupErr>¡Ha ocurrido un error iniciando Ignotus!</startupErr>
+    <bundledJreErr>Este programa se ha diseñado para usar un versión propia de Java pero no la encuentro!</bundledJreErr>
+    <jreVersionErr>Ignotus necesita Java para funcionar</jreVersionErr>
+    <launcherErr>Parece que Java está mal instalado en este equipo.</launcherErr>
+    <instanceAlreadyExistsMsg>Ya estas ejecutando Ignotus.</instanceAlreadyExistsMsg>
+  </messages>
+</launch4jConfig>
