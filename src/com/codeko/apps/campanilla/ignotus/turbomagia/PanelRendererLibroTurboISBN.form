@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.5" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lCodigo" min="-2" pref="68" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lPropietario" min="-2" pref="78" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lTags" pref="102" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lISBN" min="-2" pref="110" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="103" groupAlignment="3" attributes="0">
+              <Component id="lPropietario" alignment="3" min="-2" max="-2" attributes="0"/>
+              <Component id="lCodigo" alignment="3" min="-2" max="-2" attributes="0"/>
+              <Component id="lISBN" alignment="3" min="-2" max="-2" attributes="0"/>
+              <Component id="lTags" alignment="3" min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lCodigo">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="lCodigo.text"/>
+        <Property name="name" type="java.lang.String" value="lCodigo" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lPropietario">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="lPropietario.text"/>
+        <Property name="name" type="java.lang.String" value="lPropietario" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lTags">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="lTags.text"/>
+        <Property name="name" type="java.lang.String" value="lTags" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lISBN">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="lISBN.text"/>
+        <Property name="name" type="java.lang.String" value="lISBN" noResource="true"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
